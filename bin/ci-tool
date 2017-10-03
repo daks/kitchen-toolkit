@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'kitchen-toolkit'
+
+ret = KitchenToolkit::CLI.start(ARGV)
+
+if ret == 0 || ret == 1
+  exit ret
+else
+  exit 0
+end

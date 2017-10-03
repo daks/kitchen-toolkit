@@ -1,0 +1,5 @@
+# Ignore Gemfile.lock
+/Gemfile.lock
+
+# Ignore test files
+/coverage
